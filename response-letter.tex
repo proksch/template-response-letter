@@ -1,0 +1,89 @@
+\documentclass{response-letter-style}
+
+\begin{document}
+Dear editor,
+
+we would like to thank you and all reviewers for the valuable feedback on our paper.
+We revised it in many ways and think that the quality of the paper was further improved.
+
+This document lists all comments that included constructive feedback together with a brief description how we addressed the point made.
+
+We omitted summaries and all positive comments.
+
+best\\
+<Corresponding Author>
+
+\section*{Reviewer 1}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\comment{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.}
+
+\todo{Copy \emph{relevant} sections of the reviews into \textbackslash{}comment commands. Feel free to shorten, rephrase, split, or group comments \emph{of the same reviewer}}
+
+\todo{Before addressing comments in the paper, make a plan of the open tasks, so we can discuss them. Add the open tasks as \textbackslash{}todo items.}
+
+\todo{Sometimes, review comments are not 100\% clear.
+If in doubt, clarify the interpretation of review comments among the paper authors.}
+
+\rev{After we have discussed the response strategy among reviewers, start addressing the comments in the paper.
+Outside of \textbackslash{}todo, write text as you would address the editor/reviewers.
+You can use the \textbackslash{}rev command to mark parts of the answer that are not fully ready yet and still need a \emph{revision}.
+This parts will be highlighted like this paragraph.}
+
+All comments that are fully addressed should not have any markup comments (like \textbackslash{}todo) left in their answer (or in the Latex code for that matter).
+Only the final response that we will submit to the editor should be the remaining text between the comments.
+
+
+Please note, the highlights in this template do not carry any semantic meaning, they are only included to illustrate the expectations and the different Latex commands that are available to support writing a good response letter.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\comment{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.}
+
+
+\todo{It is appreciated by reviewers when changes are highlighted in the paper to make it easier for them to review the revision.
+Instead of introducing a specific command to highlight the changed text, it is always preferable to check first, whether you can get {\tt latexdiff}%
+\footnote{\url{https://www.overleaf.com/learn/latex/Articles/Using_Latexdiff_For_Marking_Changes_To_Tex_Documents}}
+to work.
+Being able to \emph{generate} a diff keeps the document pristine and noise like unnecessary formatting commands out of the paper.
+Use custom formatting commands only as a fallback, when -despite reasonable attempt- you did not get {\tt latexdiff} to work.}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\comment{Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident}
+\label{meaningful-abbreviation}
+
+\todo{You can use \textbackslash{}label to put anchors into the document.}
+
+\todo{You can then ref to these comment, for example, you could refer to Comment~\ref{meaningful-abbreviation} later in the response letter to avoid having to repeat an argument that you already provided before. (Two compilations of the document needed).}
+
+\todo{To refer to related work, it is possible to use regular BibTex and \textbackslash{}cite, but it might be confusing to the readers, as you start having two bibliographies (one in the response letter and one in the paper), so they might look into wrong bibliography to find the citation.
+It is often easier and preferable to just use footnotes, a response letter should not contain too many citations anyways.%
+\footnote{Someone et al., Cool Title of the Cited Paper, ABC'09.}
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\comment{Minor comments:
+\begin{itemize}[noitemsep]
+\item Ut enim ad minim veniam, quis nostrud exercitation
+\item ullamco laboris nisi ut aliquip ex ea commodo consequat.
+\item Duis aute irure dolor in reprehenderit in voluptate.\end{itemize}}
+
+\todo{Focus on constructive comments and leave out the rest.
+Sometimes, comments simply do not need an elaborate answer, you can just group them as mentioned before.}
+
+We have addressed all these points in the revision.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Reviewer N}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\comment{...}
+
+\todo{Rinse and repeat for all reviewers.}
+
+\end{document}
